@@ -36,6 +36,6 @@ jni/core \
 jni
 
 LOCAL_STATIC_LIBRARIES += curl
-LOCAL_LDLIBS := -lz -latomic
+LOCAL_LDLIBS := -lz -latomic -llog
 
 include $(BUILD_SHARED_LIBRARY)
