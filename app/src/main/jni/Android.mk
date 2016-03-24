@@ -12,27 +12,29 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := msnger-jni
 
+CORE_SRC_DIR := ../../../../../msnger-core
 LOCAL_SRC_FILES := \
-message/Message.cpp \
-message/Messenger.cpp \
-wrapper/Msnger.cpp \
-gis/GisTransaction.cpp \
-infobip/InfobipTransaction.cpp \
-http/HttpClient.cpp \
-jsmn/jsmn.c \
-jsmn/jsmntools.c \
-core/MessageLoop.cpp \
+$(CORE_SRC_DIR)/message/Message.cpp \
+$(CORE_SRC_DIR)/message/Messenger.cpp \
+$(CORE_SRC_DIR)/wrapper/Msnger.cpp \
+$(CORE_SRC_DIR)/gis/GisTransaction.cpp \
+$(CORE_SRC_DIR)/infobip/InfobipTransaction.cpp \
+$(CORE_SRC_DIR)/http/HttpClient.cpp \
+$(CORE_SRC_DIR)/jsmn/jsmn.c \
+$(CORE_SRC_DIR)/jsmn/jsmntools.c \
+$(CORE_SRC_DIR)/core/MessageLoop.cpp \
 com_stanislavin_msnger_JNIMsnger.c
 
+CORE_INC_DIR := ../../../../msnger-core
 LOCAL_C_INCLUDES := \
-jni/message \
-jni/wrapper \
-jni/gis \
-jni/infobip \
-jni/curl \
-jni/http \
-jni/jsmn \
-jni/core \
+$(CORE_INC_DIR)/message \
+$(CORE_INC_DIR)/wrapper \
+$(CORE_INC_DIR)/gis \
+$(CORE_INC_DIR)/infobip \
+$(CORE_INC_DIR)/curl \
+$(CORE_INC_DIR)/http \
+$(CORE_INC_DIR)/jsmn \
+$(CORE_INC_DIR)/core \
 jni
 
 LOCAL_STATIC_LIBRARIES += curl

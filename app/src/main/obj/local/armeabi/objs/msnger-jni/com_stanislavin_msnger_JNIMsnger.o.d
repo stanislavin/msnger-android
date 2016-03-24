@@ -5,7 +5,8 @@ obj/local/armeabi/objs/msnger-jni/com_stanislavin_msnger_JNIMsnger.o: \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/wctype.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/xlocale.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h \
- jni/com_stanislavin_msnger_JNIMsnger.h jni/wrapper/Msnger.h
+ jni/com_stanislavin_msnger_JNIMsnger.h \
+ ../../../../msnger-core/wrapper/Msnger.h
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdio.h:
 
@@ -19,4 +20,4 @@ obj/local/armeabi/objs/msnger-jni/com_stanislavin_msnger_JNIMsnger.o: \
 
 jni/com_stanislavin_msnger_JNIMsnger.h:
 
-jni/wrapper/Msnger.h:
+../../../../msnger-core/wrapper/Msnger.h:
