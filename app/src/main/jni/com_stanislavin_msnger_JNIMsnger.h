@@ -9,11 +9,27 @@ extern "C" {
 #endif
 /*
  * Class:     com_stanislavin_msnger_JNIMsnger
+ * Method:    init
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_stanislavin_msnger_JNIMsnger_init
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     com_stanislavin_msnger_JNIMsnger
+ * Method:    deinit
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_stanislavin_msnger_JNIMsnger_deinit
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     com_stanislavin_msnger_JNIMsnger
  * Method:    sendMessage
- * Signature: ([C[CDD)V
+ * Signature: ([B[BDD)V
  */
 JNIEXPORT void JNICALL Java_com_stanislavin_msnger_JNIMsnger_sendMessage
-  (JNIEnv *, jobject, jcharArray, jcharArray, jdouble, jdouble);
+  (JNIEnv *, jobject, jbyteArray, jbyteArray, jdouble, jdouble);
 
 #ifdef __cplusplus
 }

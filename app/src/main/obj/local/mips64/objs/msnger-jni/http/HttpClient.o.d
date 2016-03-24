@@ -36,7 +36,7 @@ obj/local/mips64/objs/msnger-jni/http/HttpClient.o: \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/atomic \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/stdexcept \
- jni/http/IHTTPClient.h jni/core/core.h
+ jni/http/IHTTPClient.h jni/core/core.h jni/core/Log.h
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/cstdlib:
 
@@ -123,3 +123,5 @@ jni/http/HttpClient.h:
 jni/http/IHTTPClient.h:
 
 jni/core/core.h:
+
+jni/core/Log.h:
