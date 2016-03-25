@@ -9,7 +9,7 @@
 #include "com_stanislavin_msnger_JNIMsnger.h"
 #include "Msnger.h"
 
-#define LOGI(TAG,...) __android_log_print(ANDROID_LOG_INFO   , TAG,__VA_ARGS__)
+#define LOGI(TAG,...) __android_log_print(ANDROID_LOG_INFO, TAG,__VA_ARGS__)
 
 struct ReceiverEntry;
 typedef struct ReceiverEntry
@@ -129,7 +129,6 @@ JNIEXPORT void JNICALL Java_com_stanislavin_msnger_JNIMsnger_sendMessage
     LOGI("JNI", "sendMessage called: %s %s", n, m);
     if (gMsnger != NULL)
     {
-        // sendMessage(Msnger msnger, const char* number, const char* message, double lat, double lon, onMessageSentCallback callback);
         addReceiver(env, object);
         sendMessage(gMsnger, n, m, lat, lon, onMessageSentByCore);
     }

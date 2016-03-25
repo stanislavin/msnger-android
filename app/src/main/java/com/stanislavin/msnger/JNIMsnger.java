@@ -1,14 +1,11 @@
 package com.stanislavin.msnger;
 
-import android.util.Log;
-
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * Created by cpjv68 on 24/03/16.
+ * Created by Stanislav Slavin on 24/03/16.
  */
 public class JNIMsnger {
 
@@ -40,9 +37,8 @@ public class JNIMsnger {
     }
 
     private byte[] string2Bytes(String str) {
-        // TBD: move to unicode
         byte[] strbytes = str.getBytes(StandardCharsets.US_ASCII);
-        // append zero
+        // append zero-terminator
         byte[] bytes = Arrays.copyOf(strbytes, strbytes.length + 1);
         return bytes;
     }
