@@ -3,11 +3,14 @@ obj/local/mips64/objs/msnger-jni/__/__/__/__/__/msnger-core/http/HttpClient.o: \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/cstdlib \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/__config \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h \
- jni/curl/curl.h jni/curl/curlver.h jni/curl/curlbuild.h \
- jni/curl/curlrules.h \
+ ../../../../msnger-core/curl/curl.h \
+ ../../../../msnger-core/curl/curlver.h \
+ ../../../../msnger-core/curl/curlbuild.h \
+ ../../../../msnger-core/curl/curlrules.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdio.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/time.h \
- jni/curl/easy.h jni/curl/multi.h jni/curl/curl.h \
+ ../../../../msnger-core/curl/easy.h ../../../../msnger-core/curl/multi.h \
+ ../../../../msnger-core/curl/curl.h \
  jni/../../../../../msnger-core/http/HttpClient.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/string \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/iosfwd \
@@ -46,23 +49,23 @@ obj/local/mips64/objs/msnger-jni/__/__/__/__/__/msnger-core/http/HttpClient.o: \
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h:
 
-jni/curl/curl.h:
+../../../../msnger-core/curl/curl.h:
 
-jni/curl/curlver.h:
+../../../../msnger-core/curl/curlver.h:
 
-jni/curl/curlbuild.h:
+../../../../msnger-core/curl/curlbuild.h:
 
-jni/curl/curlrules.h:
+../../../../msnger-core/curl/curlrules.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/stdio.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/time.h:
 
-jni/curl/easy.h:
+../../../../msnger-core/curl/easy.h:
 
-jni/curl/multi.h:
+../../../../msnger-core/curl/multi.h:
 
-jni/curl/curl.h:
+../../../../msnger-core/curl/curl.h:
 
 jni/../../../../../msnger-core/http/HttpClient.h:
 

@@ -31,10 +31,10 @@ $(CORE_INC_DIR)/message \
 $(CORE_INC_DIR)/wrapper \
 $(CORE_INC_DIR)/gis \
 $(CORE_INC_DIR)/infobip \
-$(CORE_INC_DIR)/curl \
 $(CORE_INC_DIR)/http \
 $(CORE_INC_DIR)/jsmn \
 $(CORE_INC_DIR)/core \
+$(CORE_INC_DIR) \
 jni
 
 LOCAL_STATIC_LIBRARIES += curl

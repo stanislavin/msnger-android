@@ -2,8 +2,11 @@ package com.stanislavin.msnger;
 
 import android.util.Log;
 
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by cpjv68 on 24/03/16.
  */
@@ -36,9 +39,19 @@ public class JNIMsnger {
         deinit();
     }
 
+    private byte[] string2Bytes(String str) {
+        // TBD: move to unicode
+        byte[] strbytes = str.getBytes(StandardCharsets.US_ASCII);
+        // append zero
+        byte[] bytes = Arrays.copyOf(strbytes, strbytes.length + 1);
+        return bytes;
+    }
+
     public void send(Message message, IMessageResultHandler handler) {
         mHandlers.add(handler);
-        sendMessage(message.number.getBytes(), message.text.getBytes(), message.lat, message.lon);
+        byte number[] = string2Bytes(message.number);
+        byte text[] = string2Bytes(message.text);
+        sendMessage(number, text, message.lat, message.lon);
     }
 
     private void onMessageSent(int code) {
