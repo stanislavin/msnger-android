@@ -39,7 +39,7 @@ obj/local/armeabi/objs/msnger-jni/__/__/__/__/__/msnger-core/infobip/InfobipTran
  ../../../../msnger-core/jsmn/jsmn.h \
  ../../../../msnger-core/jsmn/jsmntools.h \
  ../../../../msnger-core/jsmn/jsmn.h ../../../../msnger-core/core/Log.h \
- ../../../../msnger-core/core/core.h
+ ../../../../msnger-core/core/Errors.h
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/cstdlib:
 
@@ -121,4 +121,4 @@ jni/../../../../../msnger-core/infobip/InfobipTransaction.h:
 
 ../../../../msnger-core/core/Log.h:
 
-../../../../msnger-core/core/core.h:
+../../../../msnger-core/core/Errors.h:

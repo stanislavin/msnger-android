@@ -53,7 +53,7 @@ obj/local/armeabi-v7a/objs/msnger-jni/__/__/__/__/__/msnger-core/wrapper/Msnger.
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/errno.h \
  ../../../../msnger-core/core/MessageLoop.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/thread \
- ../../../../msnger-core/core/event.h \
+ ../../../../msnger-core/core/Event.h \
  ../../../../msnger-core/message/Message.h \
  ../../../../msnger-core/message/MessageResultListener.h \
  ../../../../msnger-core/infobip/InfobipTransaction.h \
@@ -171,7 +171,7 @@ jni/../../../../../msnger-core/wrapper/Msnger.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/thread:
 
-../../../../msnger-core/core/event.h:
+../../../../msnger-core/core/Event.h:
 
 ../../../../msnger-core/message/Message.h:
 

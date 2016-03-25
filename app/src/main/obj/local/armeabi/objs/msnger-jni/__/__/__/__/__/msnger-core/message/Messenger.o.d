@@ -29,7 +29,7 @@ obj/local/armeabi/objs/msnger-jni/__/__/__/__/__/msnger-core/message/Messenger.o
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h \
  ../../../../msnger-core/core/MessageLoop.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/thread \
- ../../../../msnger-core/core/event.h \
+ ../../../../msnger-core/core/Event.h \
  jni/../../../../../msnger-core/message/Message.h \
  jni/../../../../../msnger-core/message/MessageResultListener.h \
  ../../../../msnger-core/infobip/InfobipTransaction.h \
@@ -38,7 +38,7 @@ obj/local/armeabi/objs/msnger-jni/__/__/__/__/__/msnger-core/message/Messenger.o
  ../../../../msnger-core/http/IHttpClient.h \
  ../../../../msnger-core/core/Timer.h \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/list \
- ../../../../msnger-core/core/core.h ../../../../msnger-core/core/Log.h
+ ../../../../msnger-core/core/Errors.h ../../../../msnger-core/core/Log.h
 
 jni/../../../../../msnger-core/message/Messenger.h:
 
@@ -98,7 +98,7 @@ jni/../../../../../msnger-core/message/Messenger.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/thread:
 
-../../../../msnger-core/core/event.h:
+../../../../msnger-core/core/Event.h:
 
 jni/../../../../../msnger-core/message/Message.h:
 
@@ -116,6 +116,6 @@ jni/../../../../../msnger-core/message/MessageResultListener.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/list:
 
-../../../../msnger-core/core/core.h:
+../../../../msnger-core/core/Errors.h:
 
 ../../../../msnger-core/core/Log.h:

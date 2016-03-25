@@ -36,7 +36,8 @@ obj/local/arm64-v8a/objs/msnger-jni/__/__/__/__/__/msnger-core/gis/GisTransactio
  ../../../../msnger-core/http/IHttpClient.h \
  ../../../../msnger-core/http/HttpClient.h \
  ../../../../msnger-core/http/IHTTPClient.h \
- ../../../../msnger-core/core/core.h ../../../../msnger-core/jsmn/jsmn.h \
+ ../../../../msnger-core/core/Errors.h \
+ ../../../../msnger-core/jsmn/jsmn.h \
  ../../../../msnger-core/jsmn/jsmntools.h \
  ../../../../msnger-core/jsmn/jsmn.h ../../../../msnger-core/core/Log.h
 
@@ -112,7 +113,7 @@ jni/../../../../../msnger-core/gis/GisTransaction.h:
 
 ../../../../msnger-core/http/IHTTPClient.h:
 
-../../../../msnger-core/core/core.h:
+../../../../msnger-core/core/Errors.h:
 
 ../../../../msnger-core/jsmn/jsmn.h:
 

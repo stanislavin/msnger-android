@@ -41,7 +41,7 @@ obj/local/armeabi/objs/msnger-jni/__/__/__/__/__/msnger-core/http/HttpClient.o: 
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/atomic \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/stdexcept \
  jni/../../../../../msnger-core/http/IHTTPClient.h \
- ../../../../msnger-core/core/core.h ../../../../msnger-core/core/Log.h
+ ../../../../msnger-core/core/Errors.h ../../../../msnger-core/core/Log.h
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/cstdlib:
 
@@ -127,6 +127,6 @@ jni/../../../../../msnger-core/http/HttpClient.h:
 
 jni/../../../../../msnger-core/http/IHTTPClient.h:
 
-../../../../msnger-core/core/core.h:
+../../../../msnger-core/core/Errors.h:
 
 ../../../../msnger-core/core/Log.h:

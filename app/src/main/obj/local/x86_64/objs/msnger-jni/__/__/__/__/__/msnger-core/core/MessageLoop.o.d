@@ -40,7 +40,7 @@ obj/local/x86_64/objs/msnger-jni/__/__/__/__/__/msnger-core/core/MessageLoop.o: 
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
  /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference \
- jni/../../../../../msnger-core/core/event.h
+ jni/../../../../../msnger-core/core/Event.h
 
 jni/../../../../../msnger-core/core/MessageLoop.h:
 
@@ -122,4 +122,4 @@ jni/../../../../../msnger-core/core/MessageLoop.h:
 
 /Users/cpjv68/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference:
 
-jni/../../../../../msnger-core/core/event.h:
+jni/../../../../../msnger-core/core/Event.h:
